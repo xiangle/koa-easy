@@ -53,7 +53,7 @@ app.use(function () {
 }).use(function (ctx) {
   ctx.response.write('{5')
   this.next()
-  ctx.response.write('|5}')
+  ctx.response.write('5}')
 }).use(function (ctx) {
   ctx.response.write('{6')
   this.next()
