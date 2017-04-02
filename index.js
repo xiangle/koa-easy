@@ -1,7 +1,5 @@
 const http = require('http')
 
-// 简单的koa洋葱圈模型，模拟koa的基本特性
-// 用于快速理解洋葱模型的基本原理与实现
 // ctx等同于this
 
 // koa 模块
