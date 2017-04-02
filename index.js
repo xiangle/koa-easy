@@ -2,7 +2,7 @@ const http = require('http')
 
 // ctx等同于this
 
-// koa 模块
+// koa模块
 class koa {
   constructor() {
     this.middleware = []
