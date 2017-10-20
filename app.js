@@ -43,9 +43,7 @@ app.use(function () {
   ctx.response.write('{3')
   ctx.next()
   ctx.response.write('3}')
-})
-
-app.use(function (ctx) {
+}).use(function (ctx) {
   ctx.response.write('{4')
   ctx.next()
   ctx.response.write('4}')
@@ -54,9 +52,5 @@ app.use(function (ctx) {
   ctx.next()
   ctx.response.write('5}')
 }).use(function (ctx) {
-  ctx.response.write('{6')
-  ctx.next()
-  ctx.response.write('|6}')
-})
-
-app.listen(7005)
+  ctx.response.write('{6}')
+}).listen(7002)
